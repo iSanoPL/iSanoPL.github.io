@@ -1,28 +1,34 @@
-/* Reset podstawowych marginesów */
+/* Reset marginesów */
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
 }
 
-/* Animowany ciemny gradient jako tło */
+/* Tło z animowanym gradientem nowymi kolorami */
 body {
-  background: linear-gradient(135deg, rgba(25, 30, 36, 1), rgba(47, 69, 93, 1));
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  background: linear-gradient(135deg, rgba(13, 15, 18, 1), rgba(50, 114, 184, 1));
+  background-size: 200% 200%;
+  animation: gradient 10s ease infinite;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
 }
 
-/* Definicja animacji gradientu */
+/* Definicja animacji gradientu – bardziej dynamiczna */
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
   }
+  25% {
+    background-position: 50% 0%;
+  }
   50% {
     background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 100%;
   }
   100% {
     background-position: 0% 50%;
@@ -34,19 +40,19 @@ body {
   text-align: center;
 }
 
-/* Stylizacja logo */
+/* Logo – zabezpieczenie przed przeciąganiem */
 .container img {
   max-width: 300px;
   user-drag: none;
   -webkit-user-drag: none;
 }
 
-/* Stylizowany napis pod logo */
+/* Krótki napis pod logo z czcionką SF Pro (przy fallbackach) */
 .container p {
   margin-top: 20px;
   font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   font-weight: 200;
-  font-size: 1.5em;
+  font-size: 1.2em;
   letter-spacing: 1px;
   line-height: 1.4;
 }
