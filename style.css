@@ -5,34 +5,24 @@ html, body {
   height: 100%;
 }
 
-/* Tło z animowanym gradientem nowymi kolorami */
+/* Tło z animowanym gradientem - zmienione kolory, mniejszy gradient, szybsza animacja */
 body {
   background: linear-gradient(135deg, rgba(13, 15, 18, 1), rgba(50, 114, 184, 1));
-  background-size: 200% 200%;
-  animation: gradient 10s ease infinite;
+  background-size: 150% 150%;
+  animation: gradient 6s ease infinite;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
 }
 
-/* Definicja animacji gradientu – bardziej dynamiczna */
+/* Nieregularna animacja gradientu */
 @keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  25% {
-    background-position: 50% 0%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  75% {
-    background-position: 50% 100%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+  0% { background-position: 0% 50%; }
+  27% { background-position: 20% 30%; }
+  60% { background-position: 80% 70%; }
+  85% { background-position: 40% 90%; }
+  100% { background-position: 0% 50%; }
 }
 
 /* Kontener centrowany */
@@ -47,7 +37,7 @@ body {
   -webkit-user-drag: none;
 }
 
-/* Krótki napis pod logo z czcionką SF Pro (przy fallbackach) */
+/* Krótki napis pod logo, czcionka SF Pro (z fallbackami) */
 .container p {
   margin-top: 20px;
   font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
