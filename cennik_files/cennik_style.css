@@ -20,15 +20,33 @@ body {
 }
 
 .preview {
+  position: relative;
   flex: 1 1 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  max-width: 300px;
+  margin: auto;
 }
 
 .preview img {
   max-width: 100%;
   height: auto;
+  display: block;
+}
+
+#baseImage {
+  position: relative;
+  z-index: 0;
+}
+
+#deviceImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  pointer-events: none;
+  z-index: 1;
 }
 
 .form-section {
