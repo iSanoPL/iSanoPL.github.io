@@ -33,9 +33,13 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 40px;
-  flex-wrap: nowrap;
+  min-height: 240px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .graphic-container {
@@ -69,9 +73,10 @@ body {
   flex-direction: column;
   justify-content: space-between;
   height: 240px;
-  min-width: 200px;
-  max-width: 600px;
   width: 100%;
+  max-width: 600px;
+  min-width: 240px;
+  box-sizing: border-box;
 }
 
 select {
@@ -83,8 +88,8 @@ select {
   color: #19222d;
   font-weight: bold;
   width: 100%;
-  box-sizing: border-box;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .price {
@@ -98,11 +103,11 @@ select {
   font-size: 1em;
   line-height: 1.6;
   text-align: left;
-  margin-top: 30px;
+  margin: 40px auto 0 auto;
+  max-width: 800px;
   width: 100%;
-  max-width: calc(160px + 40px + 600px);
-  transition: opacity 0.3s ease-in-out;
   box-sizing: border-box;
+  transition: opacity 0.3s ease-in-out;
 }
 
 /* Footer */
@@ -117,13 +122,13 @@ select {
   margin-top: auto;
 }
 
-/* Mobile layout */
+/* Mobile */
 @media (max-width: 768px) {
   .content {
     flex-direction: row;
     align-items: flex-start;
-    flex-wrap: nowrap;
     gap: 20px;
+    max-width: 100%;
   }
 
   .graphic-container {
@@ -133,10 +138,11 @@ select {
 
   .info-panel {
     height: 180px;
+    min-width: 160px;
   }
 
   .description {
-    max-width: 100%;
     padding: 0 10px;
+    max-width: 100%;
   }
 }
