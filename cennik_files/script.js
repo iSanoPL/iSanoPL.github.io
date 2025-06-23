@@ -53,6 +53,5 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   function fadeOutImage() {
     imageEl.style.opacity = 0;
-    imageEl.src = "";
   }
 });
