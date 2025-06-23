@@ -16,14 +16,14 @@ body {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding-bottom: 60px;
+  padding: 60px 24px 120px 24px; /* stałe marginesy i przestrzeń na dół */
   box-sizing: border-box;
 }
 
 .center-box {
   width: 100%;
   max-width: 960px;
-  margin: 80px auto 0 auto;
+  margin: 0 auto;
   box-sizing: border-box;
 }
 
@@ -69,7 +69,7 @@ body {
   justify-content: space-between;
   height: 240px;
   width: 100%;
-  max-width: 600px;
+  max-width: 340px;
   min-width: 240px;
   box-sizing: border-box;
 }
@@ -83,8 +83,9 @@ select {
   color: #19222d;
   font-weight: bold;
   width: 100%;
-  margin: 0;
+  max-width: 100%;
   box-sizing: border-box;
+  margin: 0;
 }
 
 .price {
@@ -98,6 +99,8 @@ select {
   width: 100%;
   max-width: 960px;
   margin: 40px auto 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
   padding-bottom: 60px;
   box-sizing: border-box;
 }
@@ -108,9 +111,10 @@ select {
   text-align: left;
   width: 100%;
   transition: opacity 0.3s ease-in-out;
+  margin: 0;
 }
 
-/* Footer */
+/* Stopka */
 .footer {
   width: 100%;
   background-color: #000;
@@ -122,12 +126,13 @@ select {
   margin-top: auto;
 }
 
-/* Mobile */
+/* Mobile responsywność */
 @media (max-width: 768px) {
   .content {
     flex-direction: row;
     align-items: flex-start;
     gap: 20px;
+    flex-wrap: wrap;
   }
 
   .graphic-container {
@@ -138,9 +143,10 @@ select {
   .info-panel {
     height: 180px;
     min-width: 160px;
+    max-width: 100%;
   }
 
   .description-wrapper {
-    padding: 0 10px 60px 10px;
+    padding: 0 12px 60px 12px;
   }
 }
