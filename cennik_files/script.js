@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const descriptionEl = document.getElementById("description");
   const imageEl = document.getElementById("deviceImage");
 
-  const res = await fetch("data.json");
+  const res = await fetch("cennik_files/data.json");
   data = await res.json();
 
   Object.keys(data).forEach(model => {
