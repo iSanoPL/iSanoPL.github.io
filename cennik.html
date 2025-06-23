@@ -10,31 +10,34 @@
 </head>
 <body>
   <div class="main-wrapper">
-    <div class="content">
-      <div class="graphic-container">
-        <img src="cennik_img/default.png" id="baseImage" alt="Podstawowy podgląd" />
-        <img id="deviceImage" src="" alt="Zaznaczenie usterki" />
+    <div class="center-box">
+      <div class="content">
+        <div class="graphic-container">
+          <img src="cennik_img/default.png" id="baseImage" alt="Podstawowy podgląd" />
+          <img id="deviceImage" src="" alt="" />
+        </div>
+
+        <div class="info-panel">
+          <select id="modelSelect">
+            <option disabled selected>Wybierz model iPhone'a</option>
+          </select>
+
+          <select id="repairSelect">
+            <option disabled selected>Wybierz rodzaj naprawy</option>
+          </select>
+
+          <div id="price" class="price"></div>
+        </div>
       </div>
 
-      <div class="info-panel">
-        <select id="modelSelect">
-          <option disabled selected>Wybierz model iPhone'a</option>
-        </select>
-
-        <select id="repairSelect">
-          <option disabled selected>Wybierz rodzaj naprawy</option>
-        </select>
-
-        <div id="price" class="price"></div>
-      </div>
+      <div id="description" class="description"></div>
     </div>
 
-    <div id="description" class="description"></div>
+    <div class="footer">
+      iSano 2025 - wszelkie prawa zastrzeżone
+    </div>
   </div>
 
   <script src="cennik_files/script.js"></script>
-    <div class="footer">
-    iSano 2025 - Wszelkie prawa zastrzeżone.
-  </div>
 </body>
 </html>
