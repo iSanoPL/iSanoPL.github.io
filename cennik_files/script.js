@@ -27,33 +27,32 @@ document.addEventListener("DOMContentLoaded", async () => {
       repairSelect.appendChild(option);
     });
 
-    // Reset danych
-    imageEl.style.opacity = 0;
-    imageEl.removeAttribute("src");
+    // Reset wszystkiego
+    fadeOutImage();
     priceEl.textContent = "";
     descriptionEl.textContent = "";
   });
 
   repairSelect.addEventListener("change", () => {
     const selectedData = data[modelSelect.value][repairSelect.value];
+    const newImagePath = selectedData.image;
 
-    // Jeśli grafika się nie zmieniła, nie nadpisuj
-    if (imageEl.src.includes(selectedData.image)) return;
-
-    imageEl.style.transition = 'none';
-    imageEl.style.opacity = 0;
-
-    const newImage = new Image();
-    newImage.src = selectedData.image;
-    newImage.onload = () => {
-      imageEl.src = selectedData.image;
+    const tempImg = new Image();
+    tempImg.src = newImagePath;
+    tempImg.onload = () => {
+      imageEl.style.opacity = 0;
       setTimeout(() => {
-        imageEl.style.transition = 'opacity 0.5s ease-in-out';
+        imageEl.src = newImagePath;
         imageEl.style.opacity = 1;
-      }, 20);
+      }, 50);
     };
 
     priceEl.textContent = selectedData.price;
     descriptionEl.textContent = selectedData.description;
   });
+
+  function fadeOutImage() {
+    imageEl.style.opacity = 0;
+    imageEl.src = "";
+  }
 });
