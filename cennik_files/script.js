@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const res = await fetch("cennik_files/data.json");
   data = await res.json();
 
-  // Załaduj modele do selecta
+  // Załaduj modele
   Object.keys(data).forEach(model => {
     const option = document.createElement("option");
     option.value = model;
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     modelSelect.appendChild(option);
   });
 
-  // Po wyborze modelu
+  // Po zmianie modelu
   modelSelect.addEventListener("change", () => {
     repairSelect.innerHTML = `<option disabled selected>Wybierz rodzaj naprawy</option>`;
     const repairs = Object.keys(data[modelSelect.value]);
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     descriptionEl.textContent = "";
   });
 
-  // Po wyborze naprawy
+  // Po zmianie naprawy
   repairSelect.addEventListener("change", () => {
     const selectedData = data[modelSelect.value][repairSelect.value];
 
