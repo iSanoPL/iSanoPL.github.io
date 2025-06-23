@@ -7,11 +7,11 @@ document.addEventListener("DOMContentLoaded", async () => {
   const descriptionEl = document.getElementById("description");
   const imageEl = document.getElementById("deviceImage");
 
-  // Wczytanie danych z JSON
+  // Wczytaj dane z JSON
   const res = await fetch("cennik_files/data.json");
   data = await res.json();
 
-  // Załaduj modele
+  // Załaduj modele do selecta
   Object.keys(data).forEach(model => {
     const option = document.createElement("option");
     option.value = model;
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     modelSelect.appendChild(option);
   });
 
-  // Zmiana modelu = nowa lista napraw
+  // Po wyborze modelu
   modelSelect.addEventListener("change", () => {
     repairSelect.innerHTML = `<option disabled selected>Wybierz rodzaj naprawy</option>`;
     const repairs = Object.keys(data[modelSelect.value]);
@@ -29,25 +29,27 @@ document.addEventListener("DOMContentLoaded", async () => {
       option.textContent = repair;
       repairSelect.appendChild(option);
     });
-    // Reset grafiki i szczegółów
-    imageEl.src = "";
+
     imageEl.style.opacity = 0;
+    imageEl.src = "";
     priceEl.textContent = "";
     descriptionEl.textContent = "";
   });
 
-  // Zmiana naprawy = pokaż cenę, opis i grafikę
+  // Po wyborze naprawy
   repairSelect.addEventListener("change", () => {
     const selectedData = data[modelSelect.value][repairSelect.value];
-    
-    imageEl.style.opacity = 0;
 
-    setTimeout(() => {
-      imageEl.src = selectedData.image;
-      imageEl.onload = () => {
+    imageEl.style.transition = 'none';
+    imageEl.style.opacity = 0;
+    imageEl.src = selectedData.image;
+
+    imageEl.onload = () => {
+      setTimeout(() => {
+        imageEl.style.transition = 'opacity 0.5s ease-in-out';
         imageEl.style.opacity = 1;
-      };
-    }, 100);
+      }, 50);
+    };
 
     priceEl.textContent = selectedData.price;
     descriptionEl.textContent = selectedData.description;
