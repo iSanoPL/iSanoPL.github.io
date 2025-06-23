@@ -1,19 +1,19 @@
 {
   "iPhone 13 Pro": {
     "Wymiana Baterii": {
-      "image": "cennik_img/battery.png",
+      "image": "../cennik_img/battery.png",
       "price": "350 zł",
       "description": "Wymiana baterii w standardzie fabrycznym. Po wymianie brak komunikatu o nieznanej części, Kondycja Baterii wskazuje 100%."
     },
     "Naprawa Płyty Głównej": {
-      "image": "./cennik_img/mainboard.png",
+      "image": "../cennik_img/mainboard.png",
       "price": "300 zł",
       "description": "Wymiana dolnego złącza ładowania z czyszczeniem i testem napięć."
     }
   },
   "iPhone 12": {
     "Wymiana Baterii": {
-      "image": "/cennik_img/battery.png",
+      "image": "../cennik_img/battery.png",
       "price": "250 zł",
       "description": "Wymiana baterii w standardzie fabrycznym. Po wymianie brak komunikatu o nieznanej części, Kondycja Baterii wskazuje 100%."
     }
