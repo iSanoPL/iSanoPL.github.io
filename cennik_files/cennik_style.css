@@ -3,37 +3,24 @@ body {
   font-family: 'SF Pro Display', sans-serif;
   background-color: rgba(25,34,45,1);
   color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
 }
 
 .main-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 100vh;
   width: 100%;
   max-width: 1200px;
-  padding: 20px;
+  margin: 0 auto;
+  padding: 40px 20px 80px 20px; /* więcej miejsca na dole */
   box-sizing: border-box;
-}
-
-.center-box {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .content {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 30px;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: nowrap;
+  margin-bottom: 30px;
 }
 
 .graphic-container {
@@ -67,10 +54,9 @@ body {
   flex-direction: column;
   justify-content: space-between;
   height: 240px;
-  flex-grow: 1;
+  min-width: 200px;
   max-width: 600px;
   width: 100%;
-  box-sizing: border-box;
 }
 
 select {
@@ -82,40 +68,43 @@ select {
   color: #19222d;
   font-weight: bold;
   width: 100%;
-  box-sizing: border-box;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .price {
   font-size: 1.8em;
   font-weight: bold;
   color: white;
+  min-height: 1.8em;
 }
 
 .description {
-  margin-top: 30px;
   font-size: 1em;
   line-height: 1.6;
   text-align: left;
-  width: 100%;
-  max-width: 800px;
+  margin: 0 auto;
+  max-width: calc(160px + 40px + 600px); /* grafika + odstęp + max szerokość pól */
+  padding-top: 30px;
   transition: opacity 0.3s ease-in-out;
+  box-sizing: border-box;
 }
 
-/* Stopka */
+/* Footer */
 .footer {
   text-align: center;
   font-size: 0.7em;
   color: rgba(255, 255, 255, 0.4);
-  padding: 10px;
-  margin-top: 20px;
+  padding: 20px 0 40px 0;
+  width: 100%;
 }
 
-/* Mobile */
+/* MOBILE (wciąż grafika i pola w jednym rzędzie) */
 @media (max-width: 768px) {
   .content {
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
     gap: 20px;
   }
 
@@ -126,10 +115,10 @@ select {
 
   .info-panel {
     height: 180px;
-    margin-left: 10px;
   }
 
   .description {
-    width: 100%;
+    max-width: calc(120px + 20px + 100%);
+    padding: 20px;
   }
 }
