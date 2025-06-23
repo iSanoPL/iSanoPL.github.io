@@ -14,15 +14,18 @@ body {
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .content {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 30px;
+  gap: 40px;
+  width: 100%;
 }
 
 .graphic-container {
@@ -52,19 +55,19 @@ body {
 }
 
 .info-panel {
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 240px;
-  min-width: 200px;
+  flex-grow: 1;
   max-width: 600px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 select {
-  padding: 12px;
+  padding: 10px;
   font-size: 1em;
-  margin-bottom: 10px;
   border: none;
   border-radius: 6px;
   background: linear-gradient(to right, rgba(113,180,251,1), rgba(188,220,255,1));
@@ -84,9 +87,49 @@ select {
   margin-top: 30px;
   font-size: 1em;
   line-height: 1.6;
-  transition: opacity 0.3s ease-in-out;
   text-align: left;
+  width: calc(160px + 40px + 100%); /* grafika + odstęp + pola */
+  max-width: 100%;
+  transition: opacity 0.3s ease-in-out;
 }
+
+/* Stabilizacja układu */
+#price, #description {
+  min-height: 2.5em;
+}
+
+select, .price {
+  margin: 0;
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .graphic-container {
+    width: 120px;
+    height: 180px;
+  }
+
+  .info-panel {
+    height: 180px;
+    margin-left: 16px;
+  }
+
+  select {
+    font-size: 0.95em;
+  }
+
+  .description {
+    width: calc(120px + 16px + 100%);
+  }
+}
+
+
+
 
 /* Mobile: nadal grafika i pola obok siebie */
 @media (max-width: 768px) {
