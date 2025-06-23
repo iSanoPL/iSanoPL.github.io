@@ -5,31 +5,34 @@ body {
   color: white;
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   min-height: 100vh;
 }
 
-.main-container {
-  width: 95%;
-  max-width: 1100px;
-  margin-top: 40px;
+.main-wrapper {
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.panel {
+.content {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: flex-start;
   flex-wrap: wrap;
+  gap: 30px;
 }
 
-.image-box {
+.graphic-container {
   position: relative;
   width: 160px;
   height: 240px;
-  margin-right: 20px;
+  flex-shrink: 0;
 }
 
-.image-box img {
+.graphic-container img {
   position: absolute;
   width: 100%;
   height: auto;
@@ -48,12 +51,14 @@ body {
   pointer-events: none;
 }
 
-.form-box {
-  flex-grow: 1;
+.info-panel {
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 240px; /* dopasowane do wysokości grafiki */
+  height: 240px;
+  min-width: 200px;
+  max-width: 600px;
 }
 
 select {
@@ -65,39 +70,39 @@ select {
   background: linear-gradient(to right, rgba(113,180,251,1), rgba(188,220,255,1));
   color: #19222d;
   font-weight: bold;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .price {
   font-size: 1.8em;
   font-weight: bold;
-  margin-top: auto;
   color: white;
 }
 
 .description {
   margin-top: 30px;
   font-size: 1em;
-  color: white;
-  line-height: 1.5;
+  line-height: 1.6;
   transition: opacity 0.3s ease-in-out;
+  text-align: left;
 }
 
-/* MOBILE: nadal układ poziomy! */
+/* Mobile: nadal grafika i pola obok siebie */
 @media (max-width: 768px) {
-  .panel {
+  .content {
     flex-direction: row;
     align-items: flex-start;
   }
 
-  .image-box {
+  .graphic-container {
     width: 120px;
     height: 180px;
   }
 
-  .form-box {
+  .info-panel {
     height: 180px;
     margin-left: 16px;
-    width: calc(100% - 140px);
   }
 
   select {
