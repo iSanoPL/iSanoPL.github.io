@@ -152,3 +152,21 @@ select, .price {
     font-size: 0.95em;
   }
 }
+
+/* Stopka */
+.footer {
+  text-align: center;
+  font-size: 0.7em;
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 80px;
+}
+
+body, .main-wrapper {
+  min-height: 100vh;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
