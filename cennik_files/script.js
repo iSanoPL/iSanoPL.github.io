@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .then((json) => {
       data = json;
       populateModels();
+      resetDisplay(); // <-- Domyślny opis po załadowaniu strony
     });
 
   function populateModels() {
@@ -32,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
       option.textContent = repair;
       repairSelect.appendChild(option);
     });
-    resetDisplay();
+    resetDisplay(); // Po zmianie modelu resetujemy info
   });
 
   repairSelect.addEventListener("change", () => {
@@ -47,7 +48,6 @@ document.addEventListener("DOMContentLoaded", function () {
       setTimeout(() => {
         imageEl.src = info.image;
 
-        // Po załadowaniu nowego obrazka
         imageEl.onload = () => {
           imageEl.style.opacity = 1;
         };
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function resetDisplay() {
     priceEl.textContent = "";
-    descriptionEl.textContent = "";
-    imageEl.style.opacity = 0;
+    descriptionEl.textContent = "Wybierz model i rodzaj naprawy, aby zobaczyć szczegóły.";
+    imageEl.style.opacity = 1;
   }
 });
