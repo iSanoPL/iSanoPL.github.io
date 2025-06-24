@@ -1,14 +1,150 @@
 {
-  "iPhone 13 Pro": {
+  "iPhone 8": {
     "Wymiana Baterii": {
       "image": "../cennik_img/battery.png",
       "price": "350 zł",
-      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\\nUsługa nie powoduje utraty danych."
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
     },
     "Wymiana głównego Aparatu": {
       "image": "../cennik_img/camera.png",
       "price": "499 PLN",
-      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\\nUsługa nie powoduje utraty danych."
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
+    },
+    "Naprawa Płyty Głównej": {
+      "image": "../cennik_img/mainboard.png",
+      "price": "Od 299 PLN",
+      "description": "Płyta główna odpowiada za działanie wszystkich podzespołów telefonu. Jej uszkodzenie może objawiać się brakiem reakcji na ładowanie, problemami z włączaniem, brakiem zasięgu lub innymi losowymi usterkami. Oferujemy diagnostykę i naprawę płyty głównej w zależności od rodzaju uszkodzenia."
+    }
+  },
+  "iPhone 8 Plus": {
+    "Wymiana Baterii": {
+      "image": "../cennik_img/battery.png",
+      "price": "350 zł",
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
+    },
+    "Wymiana głównego Aparatu": {
+      "image": "../cennik_img/camera.png",
+      "price": "499 PLN",
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
+    },
+    "Naprawa Płyty Głównej": {
+      "image": "../cennik_img/mainboard.png",
+      "price": "Od 299 PLN",
+      "description": "Płyta główna odpowiada za działanie wszystkich podzespołów telefonu. Jej uszkodzenie może objawiać się brakiem reakcji na ładowanie, problemami z włączaniem, brakiem zasięgu lub innymi losowymi usterkami. Oferujemy diagnostykę i naprawę płyty głównej w zależności od rodzaju uszkodzenia."
+    }
+  },
+  "iPhone X": {
+    "Wymiana Baterii": {
+      "image": "../cennik_img/battery.png",
+      "price": "350 zł",
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
+    },
+    "Wymiana głównego Aparatu": {
+      "image": "../cennik_img/camera.png",
+      "price": "499 PLN",
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
+    },
+    "Naprawa Płyty Głównej": {
+      "image": "../cennik_img/mainboard.png",
+      "price": "Od 299 PLN",
+      "description": "Płyta główna odpowiada za działanie wszystkich podzespołów telefonu. Jej uszkodzenie może objawiać się brakiem reakcji na ładowanie, problemami z włączaniem, brakiem zasięgu lub innymi losowymi usterkami. Oferujemy diagnostykę i naprawę płyty głównej w zależności od rodzaju uszkodzenia."
+    }
+  },
+  "iPhone XR": {
+    "Wymiana Baterii": {
+      "image": "../cennik_img/battery.png",
+      "price": "350 zł",
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
+    },
+    "Wymiana głównego Aparatu": {
+      "image": "../cennik_img/camera.png",
+      "price": "499 PLN",
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
+    },
+    "Naprawa Płyty Głównej": {
+      "image": "../cennik_img/mainboard.png",
+      "price": "Od 299 PLN",
+      "description": "Płyta główna odpowiada za działanie wszystkich podzespołów telefonu. Jej uszkodzenie może objawiać się brakiem reakcji na ładowanie, problemami z włączaniem, brakiem zasięgu lub innymi losowymi usterkami. Oferujemy diagnostykę i naprawę płyty głównej w zależności od rodzaju uszkodzenia."
+    }
+  },
+  "iPhone XS": {
+    "Wymiana Baterii": {
+      "image": "../cennik_img/battery.png",
+      "price": "350 zł",
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
+    },
+    "Wymiana głównego Aparatu": {
+      "image": "../cennik_img/camera.png",
+      "price": "499 PLN",
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
+    },
+    "Naprawa Płyty Głównej": {
+      "image": "../cennik_img/mainboard.png",
+      "price": "Od 299 PLN",
+      "description": "Płyta główna odpowiada za działanie wszystkich podzespołów telefonu. Jej uszkodzenie może objawiać się brakiem reakcji na ładowanie, problemami z włączaniem, brakiem zasięgu lub innymi losowymi usterkami. Oferujemy diagnostykę i naprawę płyty głównej w zależności od rodzaju uszkodzenia."
+    }
+  },
+  "iPhone XS Max": {
+    "Wymiana Baterii": {
+      "image": "../cennik_img/battery.png",
+      "price": "350 zł",
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
+    },
+    "Wymiana głównego Aparatu": {
+      "image": "../cennik_img/camera.png",
+      "price": "499 PLN",
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
+    },
+    "Naprawa Płyty Głównej": {
+      "image": "../cennik_img/mainboard.png",
+      "price": "Od 299 PLN",
+      "description": "Płyta główna odpowiada za działanie wszystkich podzespołów telefonu. Jej uszkodzenie może objawiać się brakiem reakcji na ładowanie, problemami z włączaniem, brakiem zasięgu lub innymi losowymi usterkami. Oferujemy diagnostykę i naprawę płyty głównej w zależności od rodzaju uszkodzenia."
+    }
+  },
+  "iPhone 11": {
+    "Wymiana Baterii": {
+      "image": "../cennik_img/battery.png",
+      "price": "350 zł",
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
+    },
+    "Wymiana głównego Aparatu": {
+      "image": "../cennik_img/camera.png",
+      "price": "499 PLN",
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
+    },
+    "Naprawa Płyty Głównej": {
+      "image": "../cennik_img/mainboard.png",
+      "price": "Od 299 PLN",
+      "description": "Płyta główna odpowiada za działanie wszystkich podzespołów telefonu. Jej uszkodzenie może objawiać się brakiem reakcji na ładowanie, problemami z włączaniem, brakiem zasięgu lub innymi losowymi usterkami. Oferujemy diagnostykę i naprawę płyty głównej w zależności od rodzaju uszkodzenia."
+    }
+  },
+  "iPhone 11 Pro": {
+    "Wymiana Baterii": {
+      "image": "../cennik_img/battery.png",
+      "price": "350 zł",
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
+    },
+    "Wymiana głównego Aparatu": {
+      "image": "../cennik_img/camera.png",
+      "price": "499 PLN",
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
+    },
+    "Naprawa Płyty Głównej": {
+      "image": "../cennik_img/mainboard.png",
+      "price": "Od 299 PLN",
+      "description": "Płyta główna odpowiada za działanie wszystkich podzespołów telefonu. Jej uszkodzenie może objawiać się brakiem reakcji na ładowanie, problemami z włączaniem, brakiem zasięgu lub innymi losowymi usterkami. Oferujemy diagnostykę i naprawę płyty głównej w zależności od rodzaju uszkodzenia."
+    }
+  },
+  "iPhone 11 Pro Max": {
+    "Wymiana Baterii": {
+      "image": "../cennik_img/battery.png",
+      "price": "350 zł",
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
+    },
+    "Wymiana głównego Aparatu": {
+      "image": "../cennik_img/camera.png",
+      "price": "499 PLN",
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
     },
     "Naprawa Płyty Głównej": {
       "image": "../cennik_img/mainboard.png",
@@ -20,12 +156,267 @@
     "Wymiana Baterii": {
       "image": "../cennik_img/battery.png",
       "price": "350 zł",
-      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\\nUsługa nie powoduje utraty danych."
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
     },
     "Wymiana głównego Aparatu": {
       "image": "../cennik_img/camera.png",
       "price": "499 PLN",
-      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\\nUsługa nie powoduje utraty danych."
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
+    },
+    "Naprawa Płyty Głównej": {
+      "image": "../cennik_img/mainboard.png",
+      "price": "Od 299 PLN",
+      "description": "Płyta główna odpowiada za działanie wszystkich podzespołów telefonu. Jej uszkodzenie może objawiać się brakiem reakcji na ładowanie, problemami z włączaniem, brakiem zasięgu lub innymi losowymi usterkami. Oferujemy diagnostykę i naprawę płyty głównej w zależności od rodzaju uszkodzenia."
+    }
+  },
+  "iPhone 12 mini": {
+    "Wymiana Baterii": {
+      "image": "../cennik_img/battery.png",
+      "price": "350 zł",
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
+    },
+    "Wymiana głównego Aparatu": {
+      "image": "../cennik_img/camera.png",
+      "price": "499 PLN",
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
+    },
+    "Naprawa Płyty Głównej": {
+      "image": "../cennik_img/mainboard.png",
+      "price": "Od 299 PLN",
+      "description": "Płyta główna odpowiada za działanie wszystkich podzespołów telefonu. Jej uszkodzenie może objawiać się brakiem reakcji na ładowanie, problemami z włączaniem, brakiem zasięgu lub innymi losowymi usterkami. Oferujemy diagnostykę i naprawę płyty głównej w zależności od rodzaju uszkodzenia."
+    }
+  },
+  "iPhone 12 Pro": {
+    "Wymiana Baterii": {
+      "image": "../cennik_img/battery.png",
+      "price": "350 zł",
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
+    },
+    "Wymiana głównego Aparatu": {
+      "image": "../cennik_img/camera.png",
+      "price": "499 PLN",
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
+    },
+    "Naprawa Płyty Głównej": {
+      "image": "../cennik_img/mainboard.png",
+      "price": "Od 299 PLN",
+      "description": "Płyta główna odpowiada za działanie wszystkich podzespołów telefonu. Jej uszkodzenie może objawiać się brakiem reakcji na ładowanie, problemami z włączaniem, brakiem zasięgu lub innymi losowymi usterkami. Oferujemy diagnostykę i naprawę płyty głównej w zależności od rodzaju uszkodzenia."
+    }
+  },
+  "iPhone 12 Pro Max": {
+    "Wymiana Baterii": {
+      "image": "../cennik_img/battery.png",
+      "price": "350 zł",
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
+    },
+    "Wymiana głównego Aparatu": {
+      "image": "../cennik_img/camera.png",
+      "price": "499 PLN",
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
+    },
+    "Naprawa Płyty Głównej": {
+      "image": "../cennik_img/mainboard.png",
+      "price": "Od 299 PLN",
+      "description": "Płyta główna odpowiada za działanie wszystkich podzespołów telefonu. Jej uszkodzenie może objawiać się brakiem reakcji na ładowanie, problemami z włączaniem, brakiem zasięgu lub innymi losowymi usterkami. Oferujemy diagnostykę i naprawę płyty głównej w zależności od rodzaju uszkodzenia."
+    }
+  },
+  "iPhone 13": {
+    "Wymiana Baterii": {
+      "image": "../cennik_img/battery.png",
+      "price": "350 zł",
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
+    },
+    "Wymiana głównego Aparatu": {
+      "image": "../cennik_img/camera.png",
+      "price": "499 PLN",
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
+    },
+    "Naprawa Płyty Głównej": {
+      "image": "../cennik_img/mainboard.png",
+      "price": "Od 299 PLN",
+      "description": "Płyta główna odpowiada za działanie wszystkich podzespołów telefonu. Jej uszkodzenie może objawiać się brakiem reakcji na ładowanie, problemami z włączaniem, brakiem zasięgu lub innymi losowymi usterkami. Oferujemy diagnostykę i naprawę płyty głównej w zależności od rodzaju uszkodzenia."
+    }
+  },
+  "iPhone 13 mini": {
+    "Wymiana Baterii": {
+      "image": "../cennik_img/battery.png",
+      "price": "350 zł",
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
+    },
+    "Wymiana głównego Aparatu": {
+      "image": "../cennik_img/camera.png",
+      "price": "499 PLN",
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
+    },
+    "Naprawa Płyty Głównej": {
+      "image": "../cennik_img/mainboard.png",
+      "price": "Od 299 PLN",
+      "description": "Płyta główna odpowiada za działanie wszystkich podzespołów telefonu. Jej uszkodzenie może objawiać się brakiem reakcji na ładowanie, problemami z włączaniem, brakiem zasięgu lub innymi losowymi usterkami. Oferujemy diagnostykę i naprawę płyty głównej w zależności od rodzaju uszkodzenia."
+    }
+  },
+  "iPhone 13 Pro": {
+    "Wymiana Baterii": {
+      "image": "../cennik_img/battery.png",
+      "price": "350 zł",
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
+    },
+    "Wymiana głównego Aparatu": {
+      "image": "../cennik_img/camera.png",
+      "price": "499 PLN",
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
+    },
+    "Naprawa Płyty Głównej": {
+      "image": "../cennik_img/mainboard.png",
+      "price": "Od 299 PLN",
+      "description": "Płyta główna odpowiada za działanie wszystkich podzespołów telefonu. Jej uszkodzenie może objawiać się brakiem reakcji na ładowanie, problemami z włączaniem, brakiem zasięgu lub innymi losowymi usterkami. Oferujemy diagnostykę i naprawę płyty głównej w zależności od rodzaju uszkodzenia."
+    }
+  },
+  "iPhone 13 Pro Max": {
+    "Wymiana Baterii": {
+      "image": "../cennik_img/battery.png",
+      "price": "350 zł",
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
+    },
+    "Wymiana głównego Aparatu": {
+      "image": "../cennik_img/camera.png",
+      "price": "499 PLN",
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
+    },
+    "Naprawa Płyty Głównej": {
+      "image": "../cennik_img/mainboard.png",
+      "price": "Od 299 PLN",
+      "description": "Płyta główna odpowiada za działanie wszystkich podzespołów telefonu. Jej uszkodzenie może objawiać się brakiem reakcji na ładowanie, problemami z włączaniem, brakiem zasięgu lub innymi losowymi usterkami. Oferujemy diagnostykę i naprawę płyty głównej w zależności od rodzaju uszkodzenia."
+    }
+  },
+  "iPhone 14": {
+    "Wymiana Baterii": {
+      "image": "../cennik_img/battery.png",
+      "price": "350 zł",
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
+    },
+    "Wymiana głównego Aparatu": {
+      "image": "../cennik_img/camera.png",
+      "price": "499 PLN",
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
+    },
+    "Naprawa Płyty Głównej": {
+      "image": "../cennik_img/mainboard.png",
+      "price": "Od 299 PLN",
+      "description": "Płyta główna odpowiada za działanie wszystkich podzespołów telefonu. Jej uszkodzenie może objawiać się brakiem reakcji na ładowanie, problemami z włączaniem, brakiem zasięgu lub innymi losowymi usterkami. Oferujemy diagnostykę i naprawę płyty głównej w zależności od rodzaju uszkodzenia."
+    }
+  },
+  "iPhone 14 Plus": {
+    "Wymiana Baterii": {
+      "image": "../cennik_img/battery.png",
+      "price": "350 zł",
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
+    },
+    "Wymiana głównego Aparatu": {
+      "image": "../cennik_img/camera.png",
+      "price": "499 PLN",
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
+    },
+    "Naprawa Płyty Głównej": {
+      "image": "../cennik_img/mainboard.png",
+      "price": "Od 299 PLN",
+      "description": "Płyta główna odpowiada za działanie wszystkich podzespołów telefonu. Jej uszkodzenie może objawiać się brakiem reakcji na ładowanie, problemami z włączaniem, brakiem zasięgu lub innymi losowymi usterkami. Oferujemy diagnostykę i naprawę płyty głównej w zależności od rodzaju uszkodzenia."
+    }
+  },
+  "iPhone 14 Pro": {
+    "Wymiana Baterii": {
+      "image": "../cennik_img/battery.png",
+      "price": "350 zł",
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
+    },
+    "Wymiana głównego Aparatu": {
+      "image": "../cennik_img/camera.png",
+      "price": "499 PLN",
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
+    },
+    "Naprawa Płyty Głównej": {
+      "image": "../cennik_img/mainboard.png",
+      "price": "Od 299 PLN",
+      "description": "Płyta główna odpowiada za działanie wszystkich podzespołów telefonu. Jej uszkodzenie może objawiać się brakiem reakcji na ładowanie, problemami z włączaniem, brakiem zasięgu lub innymi losowymi usterkami. Oferujemy diagnostykę i naprawę płyty głównej w zależności od rodzaju uszkodzenia."
+    }
+  },
+  "iPhone 14 Pro Max": {
+    "Wymiana Baterii": {
+      "image": "../cennik_img/battery.png",
+      "price": "350 zł",
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
+    },
+    "Wymiana głównego Aparatu": {
+      "image": "../cennik_img/camera.png",
+      "price": "499 PLN",
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
+    },
+    "Naprawa Płyty Głównej": {
+      "image": "../cennik_img/mainboard.png",
+      "price": "Od 299 PLN",
+      "description": "Płyta główna odpowiada za działanie wszystkich podzespołów telefonu. Jej uszkodzenie może objawiać się brakiem reakcji na ładowanie, problemami z włączaniem, brakiem zasięgu lub innymi losowymi usterkami. Oferujemy diagnostykę i naprawę płyty głównej w zależności od rodzaju uszkodzenia."
+    }
+  },
+  "iPhone 15": {
+    "Wymiana Baterii": {
+      "image": "../cennik_img/battery.png",
+      "price": "350 zł",
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
+    },
+    "Wymiana głównego Aparatu": {
+      "image": "../cennik_img/camera.png",
+      "price": "499 PLN",
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
+    },
+    "Naprawa Płyty Głównej": {
+      "image": "../cennik_img/mainboard.png",
+      "price": "Od 299 PLN",
+      "description": "Płyta główna odpowiada za działanie wszystkich podzespołów telefonu. Jej uszkodzenie może objawiać się brakiem reakcji na ładowanie, problemami z włączaniem, brakiem zasięgu lub innymi losowymi usterkami. Oferujemy diagnostykę i naprawę płyty głównej w zależności od rodzaju uszkodzenia."
+    }
+  },
+  "iPhone 15 Plus": {
+    "Wymiana Baterii": {
+      "image": "../cennik_img/battery.png",
+      "price": "350 zł",
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
+    },
+    "Wymiana głównego Aparatu": {
+      "image": "../cennik_img/camera.png",
+      "price": "499 PLN",
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
+    },
+    "Naprawa Płyty Głównej": {
+      "image": "../cennik_img/mainboard.png",
+      "price": "Od 299 PLN",
+      "description": "Płyta główna odpowiada za działanie wszystkich podzespołów telefonu. Jej uszkodzenie może objawiać się brakiem reakcji na ładowanie, problemami z włączaniem, brakiem zasięgu lub innymi losowymi usterkami. Oferujemy diagnostykę i naprawę płyty głównej w zależności od rodzaju uszkodzenia."
+    }
+  },
+  "iPhone 15 Pro": {
+    "Wymiana Baterii": {
+      "image": "../cennik_img/battery.png",
+      "price": "350 zł",
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
+    },
+    "Wymiana głównego Aparatu": {
+      "image": "../cennik_img/camera.png",
+      "price": "499 PLN",
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
+    },
+    "Naprawa Płyty Głównej": {
+      "image": "../cennik_img/mainboard.png",
+      "price": "Od 299 PLN",
+      "description": "Płyta główna odpowiada za działanie wszystkich podzespołów telefonu. Jej uszkodzenie może objawiać się brakiem reakcji na ładowanie, problemami z włączaniem, brakiem zasięgu lub innymi losowymi usterkami. Oferujemy diagnostykę i naprawę płyty głównej w zależności od rodzaju uszkodzenia."
+    }
+  },
+  "iPhone 15 Pro Max": {
+    "Wymiana Baterii": {
+      "image": "../cennik_img/battery.png",
+      "price": "350 zł",
+      "description": "Zużyta bateria objawia się szybkim rozładowywaniem, spadkami wydajności i problemami z ładowaniem. Oferujemy profesjonalną wymianę baterii na nową, która przywróci pełną sprawność urządzenia.\nUsługa nie powoduje utraty danych."
+    },
+    "Wymiana głównego Aparatu": {
+      "image": "../cennik_img/camera.png",
+      "price": "499 PLN",
+      "description": "Uszkodzony aparat może powodować rozmazane zdjęcia, problemy z ostrością lub całkowity brak obrazu. Oferujemy profesjonalną wymianę aparatu głównego, która przywróci pełną funkcjonalność kamery.\nUsługa nie powoduje utraty danych."
     },
     "Naprawa Płyty Głównej": {
       "image": "../cennik_img/mainboard.png",
