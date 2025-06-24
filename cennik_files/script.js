@@ -41,11 +41,16 @@ document.addEventListener("DOMContentLoaded", function () {
     if (data[model] && data[model][repair]) {
       const info = data[model][repair];
 
-      // Fade image in
+      // Płynna zmiana grafiki
       imageEl.style.opacity = 0;
+
       setTimeout(() => {
         imageEl.src = info.image;
-        imageEl.style.opacity = 1;
+
+        // Po załadowaniu nowego obrazka
+        imageEl.onload = () => {
+          imageEl.style.opacity = 1;
+        };
       }, 100);
 
       priceEl.textContent = info.price;
