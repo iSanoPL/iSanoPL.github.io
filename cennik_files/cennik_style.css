@@ -151,3 +151,9 @@ select {
     width: calc(120px + 20px + 220px);
   }
 }
+
+.description {
+  font-size: 14px;
+  color: #ccc;
+  white-space: pre-line;
+}
