@@ -122,8 +122,7 @@ select {
   font-size: 1em;
   line-height: 1.6;
   text-align: left;
-  width: calc(160px + 40px + 340px);
-  margin: 0 auto;
+  max-width: 100%;
   color: #ccc;
   white-space: pre-line;
   transition: opacity 0.3s ease-in-out;
