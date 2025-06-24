@@ -164,5 +164,9 @@ select {
 
   .description {
     width: calc(120px + 20px + 220px);
+    
+  .main-wrapper {
+    transform: scale(0.9);
+    transform-origin: top center;
   }
 }
