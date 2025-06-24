@@ -7,61 +7,32 @@
   <link rel="stylesheet" href="cennik_files/cennik_style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;700&display=swap">
-  <style>
-    /* Dodane poprawki CSS */
-    @media screen and (max-width: 768px) {
-      .content {
-        display: flex;
-        flex-direction: row; /* Grafika obok pól wyboru */
-        align-items: center;
-        justify-content: center;
-      }
-
-      .graphic-container, .info-panel {
-        width: 50%; /* Podział szerokości na pół */
-      }
-
-      .graphic-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .info-panel {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        padding: 10px;
-      }
-    }
-  </style>
 </head>
 <body>
   <div class="main-wrapper">
     <div class="center-box">
-      <div class="content-background">
-        <div class="content">
-          <div class="graphic-container">
-            <img id="baseImage" src="cennik_img/default.png" alt="Domyślna grafika" />
-            <img id="deviceImage" src="cennik_img/default.png" alt="Zaznaczona usterka" />
-          </div>
-          <div class="info-panel">
-            <select id="modelSelect">
-              <option disabled selected>Wybierz model iPhone'a</option>
-            </select>
-            <select id="repairSelect">
-              <option disabled selected>Wybierz rodzaj naprawy</option>
-            </select>
-            <div id="price" class="price"></div>
-          </div>
-        </div>
+  <div class="content-background">
+    <div class="content">
+      <div class="graphic-container">
+        <img id="baseImage" src="cennik_img/default.png" alt="Domyślna grafika" />
+        <img id="deviceImage" src="cennik_img/default.png" alt="Zaznaczona usterka" />
       </div>
-
-      <div class="description-wrapper">
-        <div id="description" class="description"></div>
+      <div class="info-panel">
+        <select id="modelSelect">
+          <option disabled selected>Wybierz model iPhone'a</option>
+        </select>
+        <select id="repairSelect">
+          <option disabled selected>Wybierz rodzaj naprawy</option>
+        </select>
+        <div id="price" class="price"></div>
       </div>
     </div>
+  </div>
+
+  <div class="description-wrapper">
+    <div id="description" class="description"></div>
+  </div>
+</div>
   </div>
   <div class="footer">
     iSano® 2025 - wszelkie prawa zastrzeżone
