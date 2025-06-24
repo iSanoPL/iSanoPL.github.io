@@ -153,3 +153,38 @@ select {
     width: calc(120px + 20px + 220px);
   }
 }
+
+
+/* Tło za główną zawartością (grafika + pola + cena) */
+.content-background {
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Tło za opisem */
+.description-wrapper {
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  padding: 24px;
+  width: 100%;
+  max-width: 960px;
+  margin: 40px auto 0 auto;
+  box-sizing: border-box;
+}
+
+.description {
+  font-size: 1em;
+  line-height: 1.6;
+  text-align: left;
+  width: 100%;
+  margin: 0 auto;
+  color: #ccc;
+  white-space: pre-line;
+  transition: opacity 0.3s ease-in-out;
+}
