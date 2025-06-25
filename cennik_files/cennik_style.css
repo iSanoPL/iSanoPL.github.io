@@ -142,6 +142,11 @@ select {
 
 /* Mobile */
 @media (max-width: 768px) {
+  .main-wrapper {
+    transform: scale(0.9);
+    transform-origin: top center;
+  }
+
   .content {
     flex-direction: row;
     align-items: flex-start;
@@ -162,14 +167,11 @@ select {
   }
 
   .description {
-    width: calc(120px + 20px + 220px);
-    
-  .main-wrapper {
-    transform: scale(0.9);
-    transform-origin: top center;
+    width: calc(110px + 20px + 220px);
   }
 }
 
+/* Formularz kontaktowy */
 .contact-wrapper {
   background-color: rgba(255, 255, 255, 0.06);
   border-radius: 12px;
@@ -203,6 +205,12 @@ select {
   background: rgba(35, 45, 60, 1);
   color: white;
   box-sizing: border-box;
+  width: 100%;
+  resize: vertical;
+}
+
+#contactForm textarea {
+  min-height: 100px;
 }
 
 #contactForm button {
@@ -215,6 +223,10 @@ select {
   font-weight: bold;
   cursor: pointer;
   transition: opacity 0.3s ease;
+}
+
+#contactForm button:hover {
+  opacity: 0.9;
 }
 
 #formStatus {
