@@ -234,3 +234,23 @@ select {
   font-size: 0.9em;
   color: #ccc;
 }
+
+.phone-box {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.95em;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.phone-box a {
+  color: #71b4fb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.phone-box a:hover {
+  text-decoration: underline;
+}
