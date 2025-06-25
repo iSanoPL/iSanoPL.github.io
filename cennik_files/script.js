@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
     .then((json) => {
       data = json;
       populateModels();
-      resetDisplay(); // <-- Domyślny opis po załadowaniu strony
     });
 
   function populateModels() {
@@ -33,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
       option.textContent = repair;
       repairSelect.appendChild(option);
     });
-    resetDisplay(); // Po zmianie modelu resetujemy info
+    resetDisplay();
   });
 
   repairSelect.addEventListener("change", () => {
@@ -42,15 +41,10 @@ document.addEventListener("DOMContentLoaded", function () {
     if (data[model] && data[model][repair]) {
       const info = data[model][repair];
 
-      // Płynna zmiana grafiki
       imageEl.style.opacity = 0;
-
       setTimeout(() => {
         imageEl.src = info.image;
-
-        imageEl.onload = () => {
-          imageEl.style.opacity = 1;
-        };
+        imageEl.style.opacity = 1;
       }, 100);
 
       priceEl.textContent = info.price;
@@ -60,7 +54,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function resetDisplay() {
     priceEl.textContent = "";
-    descriptionEl.textContent = "Wybierz model i rodzaj naprawy, aby zobaczyć szczegóły.";
-    imageEl.style.opacity = 1;
+    descriptionEl.textContent = "Wybierz model i usługę, aby wyświetlić szczegóły.";
+    imageEl.style.opacity = 0;
+
+    setTimeout(() => {
+      imageEl.src = "cennik_img/default.png";
+      imageEl.style.opacity = 1;
+    }, 100);
   }
 });
