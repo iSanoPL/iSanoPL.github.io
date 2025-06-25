@@ -6,12 +6,22 @@ document.addEventListener("DOMContentLoaded", function () {
   const imageEl = document.getElementById("deviceImage");
 
   let data = {};
+  const defaultImage = "cennik_img/default.png";
+  const defaultDescription = "Wybierz model i usługę, aby wyświetlić szczegóły.";
+
+  // Ustaw domyślną grafikę i opis po załadowaniu strony
+  function setInitialState() {
+    imageEl.src = defaultImage;
+    imageEl.style.opacity = 1;
+    descriptionEl.textContent = defaultDescription;
+  }
 
   fetch("cennik_files/data.json")
     .then((res) => res.json())
     .then((json) => {
       data = json;
       populateModels();
+      setInitialState();
     });
 
   function populateModels() {
@@ -32,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
       option.textContent = repair;
       repairSelect.appendChild(option);
     });
-    resetDisplay();
+    resetDisplayToDefault();
   });
 
   repairSelect.addEventListener("change", () => {
@@ -52,13 +62,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  function resetDisplay() {
+  function resetDisplayToDefault() {
     priceEl.textContent = "";
-    descriptionEl.textContent = "Wybierz model i usługę, aby wyświetlić szczegóły.";
-    imageEl.style.opacity = 0;
+    descriptionEl.textContent = defaultDescription;
 
+    imageEl.style.opacity = 0;
     setTimeout(() => {
-      imageEl.src = "cennik_img/default.png";
+      imageEl.src = defaultImage;
       imageEl.style.opacity = 1;
     }, 100);
   }
