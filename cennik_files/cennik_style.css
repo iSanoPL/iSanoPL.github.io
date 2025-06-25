@@ -1,11 +1,12 @@
-body {
+html, body {
+  height: 100%;
   margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
   font-family: 'SF Pro Display', sans-serif;
   background-color: rgba(25,34,45,1);
   color: white;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
 }
 
 #deviceImage {
@@ -128,7 +129,6 @@ select {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* Sekcja kafelków z ikonami */
 .features {
   display: flex;
   flex-wrap: wrap;
@@ -250,6 +250,21 @@ select {
   text-decoration: underline;
 }
 
+/* Stopka */
+.footer {
+  width: 100%;
+  background-color: #000;
+  text-align: center;
+  font-size: 0.6em;
+  color: #fff;
+  padding: 9px 0;
+  box-sizing: border-box;
+  margin-top: auto;
+  position: relative;
+  left: 0;
+  right: 0;
+}
+
 /* Mobile */
 @media (max-width: 768px) {
   .main-wrapper {
@@ -279,16 +294,4 @@ select {
   .description {
     width: calc(110px + 20px + 220px);
   }
-}
-
-/* Footer przyklejony na dole */
-.footer {
-  width: 100%;
-  background-color: #000;
-  text-align: center;
-  font-size: 0.6em;
-  color: #fff;
-  padding: 9px 0;
-  box-sizing: border-box;
-  margin-top: auto;
 }
