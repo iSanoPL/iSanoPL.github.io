@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="pl" class="">
 <head>
-  <script>
-  (function () {
-    const isLight = window.matchMedia('(prefers-color-scheme: light)').matches;
-    document.documentElement.className = isLight ? 'light' : 'dark';
-  })();
-  </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=0.8"/>
+  <script>
+    (function() {
+      const isLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+      document.documentElement.className = isLight ? 'light' : 'dark';
+    })();
+  </script>
   <title>iSano – Cennik Napraw</title>
   <link rel="stylesheet" href="cennik_files/cennik_style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
