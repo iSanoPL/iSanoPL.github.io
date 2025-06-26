@@ -296,9 +296,7 @@ select {
   }
 }
 
-
-
-
+/* 🌞 Jasny motyw */
 @media (prefers-color-scheme: light) {
   body {
     background-color: #f7f7f7;
@@ -310,7 +308,7 @@ select {
   .contact-wrapper,
   .feature-box,
   .phone-box {
-    background-color: rgba(0, 0, 0, 0.06);
+    background-color: #f0f0f0;
     color: #111;
   }
 
@@ -323,7 +321,7 @@ select {
   select,
   input,
   textarea {
-    background-color: #fff;
+    background-color: #ffffff;
     color: #111;
   }
 
