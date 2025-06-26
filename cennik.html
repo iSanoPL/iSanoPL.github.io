@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="pl" class="">
 <head>
+  <script>
+  (function () {
+    const isLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+    document.documentElement.className = isLight ? 'light' : 'dark';
+  })();
+  </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=0.8"/>
   <title>iSano – Cennik Napraw</title>
   <link rel="stylesheet" href="cennik_files/cennik_style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;700&display=swap">
-  <script>
-  document.documentElement.classList.add(
-    window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'
-  );
-  </script>
-
 </head>
 <body>
   <div class="main-wrapper">
