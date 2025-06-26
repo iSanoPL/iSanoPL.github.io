@@ -1,6 +1,6 @@
 /* GLOBALNE */
 html, body {
-  height: 100%;
+  min-height: 100%; /* Zapobiega ucięciu tła */
   margin: 0;
   padding: 0;
   display: flex;
@@ -17,6 +17,7 @@ html, body {
   opacity: 0;
 }
 
+/* SEKCJE */
 .main-wrapper {
   flex: 1;
   display: flex;
@@ -92,7 +93,7 @@ html, body {
   box-sizing: border-box;
   width: 100%;
   resize: vertical;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Dynamiczna zmiana motywu */
 }
 
 #contactForm textarea {
@@ -108,7 +109,6 @@ html, body {
   color: #19222d;
   font-weight: bold;
   cursor: pointer;
-  transition: opacity 0.3s ease, background-color 0.3s ease;
 }
 
 #contactForm button:hover { opacity: 0.9; }
@@ -173,8 +173,14 @@ html.light .description-wrapper,
 html.light .contact-wrapper,
 html.light .feature-box,
 html.light .phone-box {
-  background-color: #f2f2f2;
+  background-color: rgba(0, 0, 0, 0.06);
   color: #111;
+}
+
+html.light .feature-box p,
+html.light .description,
+html.light #formStatus {
+  color: #333;
 }
 
 html.light select,
@@ -182,6 +188,10 @@ html.light input,
 html.light textarea {
   background-color: #ffffff;
   color: #111;
+}
+
+html.light .price {
+  color: #000;
 }
 
 html.light #contactForm button {
@@ -198,7 +208,7 @@ html.light .phone-box a {
   color: #007aff;
 }
 
-/* DARK DEFAULT */
+/* MOTYW CIEMNY */
 html.dark body {
   background-color: rgba(25, 34, 45, 1);
   color: white;
