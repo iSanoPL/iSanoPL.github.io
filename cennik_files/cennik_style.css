@@ -5,10 +5,11 @@ html, body {
   display: flex;
   flex-direction: column;
   font-family: 'SF Pro Display', sans-serif;
-  background-color: rgba(25,34,45,1);
+  background-color: rgba(25, 34, 45, 1);
   color: white;
 }
 
+/* GRAFIKA */
 #deviceImage {
   transition: opacity 0.5s ease;
   opacity: 0;
@@ -68,10 +69,7 @@ html, body {
   left: 0;
 }
 
-#baseImage {
-  z-index: 0;
-}
-
+#baseImage { z-index: 0; }
 #deviceImage {
   z-index: 1;
   opacity: 0;
@@ -109,6 +107,7 @@ select {
   min-height: 1.8em;
 }
 
+/* OPIS */
 .description-wrapper {
   background-color: rgba(255, 255, 255, 0.06);
   border-radius: 12px;
@@ -129,6 +128,7 @@ select {
   transition: opacity 0.3s ease-in-out;
 }
 
+/* KAFELKI */
 .features {
   display: flex;
   flex-wrap: wrap;
@@ -166,7 +166,7 @@ select {
   margin: 0;
 }
 
-/* Formularz kontaktowy */
+/* FORMULARZ */
 .contact-wrapper {
   background-color: rgba(255, 255, 255, 0.06);
   border-radius: 12px;
@@ -220,9 +220,7 @@ select {
   transition: opacity 0.3s ease;
 }
 
-#contactForm button:hover {
-  opacity: 0.9;
-}
+#contactForm button:hover { opacity: 0.9; }
 
 #formStatus {
   margin-top: 10px;
@@ -246,11 +244,9 @@ select {
   font-weight: bold;
 }
 
-.phone-box a:hover {
-  text-decoration: underline;
-}
+.phone-box a:hover { text-decoration: underline; }
 
-/* Stopka */
+/* STOPKA */
 .footer {
   width: 100%;
   background-color: #000;
@@ -260,12 +256,9 @@ select {
   padding: 9px 0;
   box-sizing: border-box;
   margin-top: auto;
-  position: relative;
-  left: 0;
-  right: 0;
 }
 
-/* Mobile */
+/* MOBILE */
 @media (max-width: 768px) {
   .main-wrapper {
     transform: scale(0.9);
@@ -296,50 +289,48 @@ select {
   }
 }
 
-/* 🌞 Jasny motyw */
-@media (prefers-color-scheme: light) {
-  body {
-    background-color: #f7f7f7;
-    color: #111;
-  }
+/* MOTYW JASNY */
+html.light body {
+  background-color: #f7f7f7;
+  color: #111;
+}
 
-  .content-background,
-  .description-wrapper,
-  .contact-wrapper,
-  .feature-box,
-  .phone-box {
-    background-color: #f0f0f0;
-    color: #111;
-  }
+html.light .content-background,
+html.light .description-wrapper,
+html.light .contact-wrapper,
+html.light .feature-box,
+html.light .phone-box {
+  background-color: rgba(0, 0, 0, 0.06);
+  color: #111;
+}
 
-  .feature-box p,
-  .description,
-  #formStatus {
-    color: #333;
-  }
+html.light .feature-box p,
+html.light .description,
+html.light #formStatus {
+  color: #333;
+}
 
-  select,
-  input,
-  textarea {
-    background-color: #ffffff;
-    color: #111;
-  }
+html.light select,
+html.light input,
+html.light textarea {
+  background-color: #ffffff;
+  color: #111;
+}
 
-  .price {
-    color: #000;
-  }
+html.light .price {
+  color: #000;
+}
 
-  #contactForm button {
-    background: linear-gradient(to right, #007aff, #66b2ff);
-    color: white;
-  }
+html.light #contactForm button {
+  background: linear-gradient(to right, #007aff, #66b2ff);
+  color: white;
+}
 
-  .footer {
-    background-color: #ddd;
-    color: #111;
-  }
+html.light .footer {
+  background-color: #ddd;
+  color: #111;
+}
 
-  .phone-box a {
-    color: #007aff;
-  }
+html.light .phone-box a {
+  color: #007aff;
 }
