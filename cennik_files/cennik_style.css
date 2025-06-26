@@ -301,7 +301,7 @@ select {
 
 @media (prefers-color-scheme: light) {
   body {
-    background-color: white;
+    background-color: #f7f7f7;
     color: #111;
   }
 
@@ -314,10 +314,16 @@ select {
     color: #111;
   }
 
+  .feature-box p,
+  .description,
+  #formStatus {
+    color: #333;
+  }
+
   select,
   input,
   textarea {
-    background-color: #f1f1f1;
+    background-color: #fff;
     color: #111;
   }
 
@@ -325,20 +331,14 @@ select {
     color: #000;
   }
 
+  #contactForm button {
+    background: linear-gradient(to right, #007aff, #66b2ff);
+    color: white;
+  }
+
   .footer {
     background-color: #ddd;
     color: #111;
-  }
-
-  .feature-box p,
-  .description,
-  #formStatus {
-    color: #444;
-  }
-
-  #contactForm button {
-    color: white;
-    background: linear-gradient(to right, #007aff, #66b2ff);
   }
 
   .phone-box a {
