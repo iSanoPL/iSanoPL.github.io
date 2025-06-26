@@ -295,3 +295,53 @@ select {
     width: calc(110px + 20px + 220px);
   }
 }
+
+
+
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+    color: #111;
+  }
+
+  .content-background,
+  .description-wrapper,
+  .contact-wrapper,
+  .feature-box,
+  .phone-box {
+    background-color: rgba(0, 0, 0, 0.06);
+    color: #111;
+  }
+
+  select,
+  input,
+  textarea {
+    background-color: #f1f1f1;
+    color: #111;
+  }
+
+  .price {
+    color: #000;
+  }
+
+  .footer {
+    background-color: #ddd;
+    color: #111;
+  }
+
+  .feature-box p,
+  .description,
+  #formStatus {
+    color: #444;
+  }
+
+  #contactForm button {
+    color: white;
+    background: linear-gradient(to right, #007aff, #66b2ff);
+  }
+
+  .phone-box a {
+    color: #007aff;
+  }
+}
