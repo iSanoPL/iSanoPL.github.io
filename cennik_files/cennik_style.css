@@ -290,19 +290,20 @@ select {
 }
 
 /* MOTYW JASNY */
-html.light body {
-  background-color: #f7f7f7;
-  color: #111;
-}
+html.light body { background-color: #f7f7f7; color: #111; }
+html.dark body  { background-color: rgba(25,34,45,1); color: white; }
 
+/* dla każdej sekcji: */
 html.light .content-background,
 html.light .description-wrapper,
 html.light .contact-wrapper,
 html.light .feature-box,
-html.light .phone-box {
-  background-color: rgba(0, 0, 0, 0.06);
-  color: #111;
-}
+html.light .phone-box { background-color: #f2f2f2; color: #111; }
+
+html.light .footer { background-color: #ddd; color: #111; }
+
+/* Wersja dark – możesz zostawić jako default CSS */
+html.dark .footer { background-color: #000; color: #fff; }
 
 html.light .feature-box p,
 html.light .description,
