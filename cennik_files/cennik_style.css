@@ -335,3 +335,7 @@ html.light .footer {
 html.light .phone-box a {
   color: #007aff;
 }
+
+html.light select,
+html.light input,
+html.light textarea { background: #fff; color: #111; }
